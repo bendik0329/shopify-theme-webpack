@@ -1,0 +1,9 @@
+src
+node_modules
+package.json
+.shopify-ignore
+.gitignore
+.theme-check.yml
+yarn.lock
+webpack.config.js
+README.md
