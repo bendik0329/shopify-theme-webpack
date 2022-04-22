@@ -19,7 +19,7 @@
   "scripts": {
     "watch": "webpack watch -c ./webpack.config.js",
     "build": "webpack --mode=production",
-    "serve": "shopify theme serve dist"
+    "serve": "shopify theme serve"
   },
   "volta": {
     "node": "14.19.1"
