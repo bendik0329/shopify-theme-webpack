@@ -1,0 +1,27 @@
+{
+  "name": "simple-shopify-theme-webpack",
+  "description": "Starter theme",
+  "version": "1.0.0",
+  "devDependencies": {
+    "@babel/core": "7.17.8",
+    "@babel/preset-env": "7.16.11",
+    "@types/webpack": "5.28.0",
+    "babel-loader": "8.2.4",
+    "css-loader": "6.7.1",
+    "mini-css-extract-plugin": "2.6.0",
+    "raw-loader": "4.0.2",
+    "sass": "1.49.10",
+    "sass-loader": "12.6.0",
+    "style-loader": "0.19.1",
+    "webpack": "5.70.0",
+    "webpack-cli": "4.9.2"
+  },
+  "scripts": {
+    "watch": "webpack watch -c ./webpack.config.js",
+    "build": "webpack --mode=production",
+    "serve": "shopify theme serve dist"
+  },
+  "volta": {
+    "node": "14.19.1"
+  }
+}
