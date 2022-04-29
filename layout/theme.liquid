@@ -16,7 +16,7 @@
 
     {{ content_for_header }}
   </head>
-  <body>
+  <body data-template-name="{{ template.name }}" data-template-suffix="{{ template.suffix }}">
     <main>
       {{ content_for_layout }}
     </main>
