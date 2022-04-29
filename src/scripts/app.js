@@ -1,5 +1,8 @@
+import { shared } from "./shared";
+
 function main() {
-  console.log("hello world");
+  // Run logic required by all pages
+  shared();
 }
 
 document.addEventListener("DOMContentLoaded", main);
