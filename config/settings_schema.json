@@ -7,5 +7,14 @@
     "theme_documentation_url": "https://github.com/fibonacid/shopify-theme-webpack",
     "theme_support_url": "https://github.com/fibonacid/shopify-theme-webpack/issues"
   },
+  {
+    "name": "Site",
+    "settings": [
+      {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text color"
+      }
+    ]
   }
 ]
