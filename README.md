@@ -1,1 +1,1 @@
-# simple-shopify-theme-webpack
+# shopify-theme-webpack
